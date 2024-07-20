@@ -1,0 +1,342 @@
+{
+copyright = "Copyright \U201cwendellast\U201d 2024";
+customParameters = (
+{
+name = description;
+value = "";
+},
+{
+name = license;
+value = "FontStruct Non-Commercial Software End User License Agreement 1.0\n\nThis software end user license agreement (hereinafter \U201cAgreement\U201d) is made between you or, if you represent a legal entity, that legal entity (hereinafter \U201cYou\U201d) and \U201cwendellast\U201d, the copyright holder and designer (hereinafter \U201cFont Designer\U201d) of the font software named \U201cplaymaw\U201d (hereinafter \U201cFont Software\U201d).\n\n1. BINDING AGREEMENT\nThis Agreement is a binding agreement between You and the Font Designer and shall set forth the terms and conditions under which You can use the Font Software. For the purposes of this Agreement, Font Software shall mean the Font Software, and any parts or copies of it.\n\n2. GRANT OF NON-EXCLUSIVE AND LICENCE\nThe Font Designer hereby grants You a non-exclusive, non-transferable licence to use the Font Software provided that You comply with all terms and conditions of this Agreement.\n\n2.1 PERSONAL USE\nYou may use the Fonts Software only for Your own Personal Purposes and for Your Work. For the purposes of this Agreement, \U201cPersonal Purposes\U201d shall mean any private use of the Font Software by you. \U201cWork\U201d shall mean any work or result created by You or on Your behalf with the Font Software. For the avoidance of doubt, the use for Personal Purposes does not allow any use of the Font Software and/or any Work for commercial purposes (see Section 2.2) and/or as a web-font (see Section 2.6).\n\n2.2 NO COMMERCIAL USE\nNeither the Font Software, nor any of its individual components or any Work, may be used by You for any form of profit-making or otherwise commercial projects, without express prior written permission from the Font Designer.\n\n2.3 NO SALE OR DISTRIBUTION\nYou may not sell, rent, license, sublicense, distribute, redistribute, give-away or make available (in any other way) the Font Software alone or as part of any collection, product or service to any third party. \n\n2.4 NO MODIFICATION\nYou may not modify, adapt, rename, translate, reverse engineer, decompile, disassemble, alter, or attempt to discover the source code of the Font Software.\n\n2.5 EMBEDDING\nYou may embed the Font Software in documents, applications or devices either as a rasterized representation of the Font Software (e.g., a GIF or JPEG) or as a subset of the Font Software as long as the document, application or device is distributed in a secure format that permits only the viewing and printing but not the editing of the text.\n\n2.6 NO USE AS A WEBFONT\nYou may not make the Font Software accessible on a web server in order to enable a web browser to render the content of Websites using the respective Font Software.\n\n2.7 BACKUP\nYou may make backup copies of the Font Software for archival purposes only, provided that You retain exclusive custody and control over such copies. Any backup copy of the Font Software must contain the same copyright, trademark, and other proprietary information as the original.\n\n2.8 PRINT SHOPS AND SERVICE BUREAUS\nYou may provide a copy of the Font Software used in Your Work to a print shop, service bureau, etc. for printing or otherwise outputting Your Work. Afterwards, the print shop, service bureau, etc. must destroy and/or delete all copies of the Font Software.\n\n3. ATTRIBUTION\nIf You make Your Work publicly accessible in any form, You must keep intact all copyright notices for the Font Software and display, reasonable to the medium or means You are utilizing for Your Work, an attribution notice (hereinafter \U201cThe Attribution Notice\U201d) comprising of:\n\nthe name of the Font Designer or pseudonym, if applicable (\U201cwendellast\U201d);\nthe title of the Font Software (\U201cplaymaw\U201d); and\nto the extent reasonably practicable, the URI (https://fontstruct.com/fontstructions/show/2509614) from where the Font was originally downloaded.\n\nThe Attribution Notice may be implemented in any reasonable manner. For the avoidance of doubt, You may only use the credit required by this Section for the purpose of attribution in the manner set out above and, by exercising Your rights under this License, You may not implicitly or explicitly assert or imply any connection with, sponsorship or endorsement by the Font Designer of You or Your Work.\n\n4. YOUR REPRESENTATIONS AND INDEMNIFICATIONS\nYou represent, warrant, and covenant that You shall use the Font Software only in accordance with the terms of this Agreement and keep the Font Designer fully indemnified against all actions, claims, costs, proceedings and damages whatsoever incurred by any breach of any of the aforesaid representations, warranties of this Agreement.\n\n5. OWNERSHIP AND RIGHTS TO THE FONT SOFTWARE\nThe Font Designer reserves all rights not expressly granted to You in this Agreement (hereinafter \U201cReserved Rights\U201d). The Font Software is protected by copyright and other intellectual property laws and treaties. You acknowledge that the Font Designer shall be the sole owner of the Font Software, of the copyright and all Reserved Rights of whatever kind and nature in the Font Software.\n\n6. WARRANTY\nThe Font Software is made available \U201cas is\U201d WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT.THE FONT DESIGNER DOES NOT AND CANNOT GUARANTEE THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THE FONT SOFTWARE.\nTHE FONT DESIGNER SHALL IN NO EVENT BE LIABLE TO YOU FOR ANY CONSEQUENTIAL, INCIDENTAL OR SPECIAL DAMAGES, INCLUDING ANY LOST PROFITS OR LOST SAVINGS, OR FOR ANY CLAIM BY ANY THIRD PARTY, ARISING OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE.\n\n7. TERMINATION / CONDITION PRECEDENT\nYou may use the Font Software only as set forth in this Agreement. Any use of the Font Software that is not expressly allowed in this Agreement will automatically terminate Your rights to use the Font Software under this Agreement.  If Your right to use the Font Software is terminated You shall immediately stop using the Font Software, call back or change any Work that is used in the public, and delete/destroy any copies of the Font Software. The termination of the Agreement shall not affect the right of the Font Designer to claim damages or other rights.\n\n8. WAIVER\nA waiver by either Party of any term or condition of this Agreement shall not be deemed or construed to be a waiver of such term or condition for the future or any subsequent breach thereof.  All remedies, rights, undertakings, obligations and agreements contained in this Agreement shall be cumulative and none of them shall be in limitation of any other remedy, right, undertaking, obligation or agreement of either Party.\n\n9. GOVERNING LAW, PLACE OF JURISDICTION\nThis Agreement shall be construed and shall take effect in accordance with the laws of the Federal Republic of Germany excluding the United Nations Convention on Contracts for the International Sales of Goods (CISG).  To the extent permitted by law, the Courts of Berlin, Germany shall have exclusive jurisdiction to resolve any dispute which may arise.\n\n10. ENTIRE AGREEMENT\nThis Agreement contains the entire agreement between the Parties. No variation of any of the terms or conditions of this Agreement may be made unless such variation is agreed in writing and signed by You and the Font Designer.\n\n11. SEVERABILITY\nIf any provision of this Agreement is adjudged by a court to be invalid or unenforceable, such provision shall in no way affect any other provision of this Agreement, the application of such provision in any other circumstance or the validity or enforceability of this Agreement.  The Parties will negotiate in good faith about a provision that will replace the invalid or unenforceable provision.\n\nFontStruct Notice: FontStruct no Party to this Agreement\n\nPlease note that FontStruct (www.fontstruct.com) is not a party to this Agreement between You and the Font Designer.\n\nFontStruct makes no warranty of any kind in connection with the Font Software, its use or the results that You may obtain by using the Font Software.\n\nFontStruct shall in no event be liable to You or any third party for any damages whatsoever arising out of or relating to this Agreement or the use of the Font Software, including but not limited to incidental, special damages, any lost profits or lost savings or any claim made by a third party.\n\n";
+},
+{
+name = licenseURL;
+value = "https://fontstruct.com/fontstructions/license/2509614";
+},
+{
+name = vendorID;
+value = FSTR;
+},
+{
+name = fontstructID;
+value = 2509614;
+},
+{
+name = fontstructKey;
+value = 8086470bd2cc2529d1430531f2a4a138b7b25358;
+},
+);
+date = "2024-07-20 20:08:58 +0200";
+designer = "\U201cwendellast\U201d";
+designerURL = "/fontstructors/2468356";
+familyName = playmaw;
+disablesAutomaticAlignment = 1;
+fontMaster = (
+{
+ascender = 2045;
+capHeight = 2045;
+customParameters = (
+{
+name = typoAscender;
+value = 2045;
+},
+{
+name = typoDescender;
+value = 0;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = 0;
+},
+);
+descender = 0;
+id = fs2509614;
+weightValue = 400;
+widthValue = 5;
+xHeight = 2045;
+},
+);
+gridLength = 409;
+gridSubDivision = 409;
+glyphs = (
+{
+glyphname = A;
+unicode = 0041;
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+width = 2045;
+components = (
+{
+name = "double-quarter-square-1";
+transform = "{0.409000,0.000000,0.000000,0.409000,204.500000,920.250000}";
+},
+{
+name = "double-quarter-square-1";
+transform = "{0.409000,0.000000,0.000000,0.409000,613.500000,920.250000}";
+},
+{
+name = "double-quarter-square-1";
+transform = "{0.409000,0.000000,0.000000,0.409000,1022.500000,920.250000}";
+},
+{
+name = "double-quarter-square-1";
+transform = "{0.409000,0.000000,0.000000,0.409000,1431.500000,920.250000}";
+},
+{
+name = "double-quarter-square-1";
+transform = "{0.409000,0.000000,0.000000,0.409000,1840.500000,920.250000}";
+},
+{
+name = "half-width-triangle-10";
+transform = "{0.409000,0.000000,0.000000,0.409000,613.500000,1329.250000}";
+},
+{
+name = "half-width-triangle-4";
+transform = "{0.409000,0.000000,0.000000,0.409000,613.500000,715.750000}";
+},
+{
+name = "diagonal-3";
+transform = "{0.409000,0.000000,0.000000,0.409000,1022.500000,1329.250000}";
+},
+{
+name = "half-width-triangle-12";
+transform = "{0.409000,0.000000,0.000000,0.409000,1431.500000,1329.250000}";
+},
+{
+name = "half-width-triangle-10";
+transform = "{0.409000,0.000000,0.000000,0.409000,1431.500000,1738.250000}";
+},
+{
+name = "diagonal-2";
+transform = "{0.409000,0.000000,0.000000,0.409000,1022.500000,715.750000}";
+},
+{
+name = "half-width-triangle-2";
+transform = "{0.409000,0.000000,0.000000,0.409000,1431.500000,715.750000}";
+},
+{
+name = "half-width-triangle-4";
+transform = "{0.409000,0.000000,0.000000,0.409000,1431.500000,306.750000}";
+},
+{
+name = "composite-brick-34353062";
+transform = "{0.409000,0.000000,0.000000,0.409000,613.500000,1840.500000}";
+},
+);
+},
+);
+},
+{
+glyphname = "double-quarter-square-1";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"-500.0 0.0 LINE",
+"500.0 0.0 LINE",
+"500.0 500.0 LINE",
+"-500.0 500.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "half-width-triangle-10";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"-500.0 -500.0 LINE",
+"500.0 -500.0 LINE",
+"500.0 0.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "half-width-triangle-4";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"500.0 0.0 LINE",
+"500.0 500.0 LINE",
+"-500.0 500.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "diagonal-3";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"500.0 500.0 LINE",
+"-500.0 0.0 LINE",
+"-500.0 -500.0 LINE",
+"500.0 0.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "half-width-triangle-12";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"500.0 500.0 LINE",
+"-500.0 500.0 LINE",
+"-500.0 0.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "diagonal-2";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"500.0 0.0 LINE",
+"-500.0 500.0 LINE",
+"-500.0 0.0 LINE",
+"500.0 -500.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "half-width-triangle-2";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"-500.0 0.0 LINE",
+"-500.0 -500.0 LINE",
+"500.0 -500.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "composite-brick-34353062";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+components = (
+{
+name = "inverted-half-width-triangle-6";
+transform = "{0.5, 0, 0, 0.5, 250, 250}";
+},
+{
+name = "diagonal-2";
+transform = "{0.5, 0, 0, 0.5, -250, 250}";
+},
+{
+name = "diagonal-2";
+transform = "{0.5, 0, 0, 0.5, 250, -250}";
+},
+{
+name = "diagonal-3";
+transform = "{0.5, 0, 0, 0.5, -250, -250}";
+},
+);
+width = 1000;
+},
+);
+},
+{
+glyphname = "inverted-half-width-triangle-6";
+layers = (
+{
+layerId = fs2509614;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"500.0 500.0 LINE",
+"-500.0 0.0 LINE",
+"-500.0 -500.0 LINE",
+"500.0 -500.0 LINE",
+);
+},
+);
+width = 1000;
+},
+);
+},
+);
+disablesNiceNames = 1;
+instances = (
+{
+name = Regular;
+},
+);
+manufacturer = "https://fontstruct.com";
+manufacturerURL = "https://www.fontstruct.com";
+unitsPerEm = 2048;
+versionMajor = 1;
+versionMinor = 0;
+kerning = {
+fs2509614 = ();
+};
+}
