@@ -101,7 +101,7 @@ h1, h2 {
     background-color: #fff;
     overflow: auto;
     word-wrap: break-word;
-    color: #717c89;
+    color: #d42663;
     position: relative;
 }
 
@@ -148,10 +148,10 @@ h1, h2 {
     font-family: phyrexiaFont;
     font-size: 1.5rem;
     position: relative;
-    width: 35rem; /* Set the width to match inputBox */
-    max-width: 100%; /* Ensure it doesn't overflow its container */
-    word-wrap: break-word; /* Ensure long words break correctly */
-    overflow: auto; /* Allow scrolling if needed */
+    width: 35rem;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow: auto; 
 }
 
 #copyButton {
