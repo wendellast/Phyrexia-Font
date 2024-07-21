@@ -34,6 +34,10 @@ Para baixar a fonte Phyrexia e instalar em seu dispositivo, clique no botão aba
 - CSS3
 - JavaScript
 
+## ⚠️ Atenção
+
+A  fonte onde os caracteres especiais do latim, incluindo acentos, foram alterados para suas versões normais sem acento. Por exemplo, a letra 'Á' foi modificada para 'A', e assim por diante para outros caracteres semelhantes.
+
 ## 🎨 Design
 
 O design do site é responsivo, garantindo uma boa visualização em diferentes dispositivos e tamanhos de tela.
