@@ -214,6 +214,10 @@ a:hover {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    .Phyrexia{
+        margin: 20px;
+        font-size: 2rem;
+    }
     header {
         flex-direction: column;
         padding: 10px;
