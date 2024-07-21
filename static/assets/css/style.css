@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'phyrexiaFont';
+    src: url('../font/PhyrexiaFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Phyrexia {
+    font-family: phyrexiaFont;
+    font-size: 3.2rem;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.infoPhyrexia {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+body {
+    font-family: Beleren;
+    color: white;
+    background-color: rgb(40, 26, 41);
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+
+.background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 26, 41, 0.5);
+    backdrop-filter: blur(2.5px);
+    z-index: -1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222125;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    max-height: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+main {
+    flex: 1;
+    padding-top: 80px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.box {
+    border-radius: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 35rem;
+    height: 15rem;
+    background-color: #fff;
+    overflow: auto;
+    word-wrap: break-word;
+    color: #717c89;
+}
+
+#inputBox, #outputBox {
+    resize: none;
+    width: 29rem; 
+    height: 15rem;
+
+}
+
+#copyButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #342935;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#copyButton:hover {
+    background-color: #4e3a50;
+    transform: scale(1.05);
+}
+
+#outputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#outputBox {
+    font-family: phyrexiaFont;
+
+    font-size: 1.5rem;
+}
+
+#infoContainer {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 900px;
+    gap: 20px;
+    text-align: left;
+}
+
+#infoContainer > div {
+    flex: 1;
+}
+
+#infoContainer p, #infoContainer a {
+    margin: 5px 0;
+}
+
+.mapImg {
+    max-width: 32rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+#downloadButton {
+    margin: 20px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #342935;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#downloadButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #222125;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+a {
+    color: #d42663;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    header img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #inputBox, #outputBox {
+        width: 100%; 
+        max-width: 100%;
+        height: 15rem;
+    }
+
+    #infoContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .mapImg {
+        max-width: 100%;
+    }
+}
