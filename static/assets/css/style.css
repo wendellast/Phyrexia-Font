@@ -92,16 +92,6 @@ h1, h2 {
     text-align: center;
 }
 
-#container {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 20px;
-    width: 100%;
-    max-width: 900px;
-}
-
 .box {
     border-radius: 1rem;
     padding: 10px;
@@ -118,10 +108,36 @@ h1, h2 {
     resize: none;
     width: 29rem; 
     height: 15rem;
+}
 
+#container {
+    display: flex;
+    gap: 20px; /* Espaço entre as caixas */
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+    position: relative; /* Para permitir o posicionamento do botão */
+}
+
+#inputBox, #outputBox {
+    width: 35rem; 
+    height: 15rem;
+}
+
+#outputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: phyrexiaFont;
+    font-size: 1.5rem;
+    position: relative; /* Para que o botão possa ser posicionado em relação a esta div */
 }
 
 #copyButton {
+    display: block;
+    width: 25rem; 
     margin-top: 10px;
     padding: 10px 20px;
     cursor: pointer;
@@ -135,18 +151,6 @@ h1, h2 {
 #copyButton:hover {
     background-color: #4e3a50;
     transform: scale(1.05);
-}
-
-#outputContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#outputBox {
-    font-family: phyrexiaFont;
-
-    font-size: 1.5rem;
 }
 
 #infoContainer {
@@ -213,11 +217,17 @@ a:hover {
     header {
         flex-direction: column;
         padding: 10px;
+        font-size: 14px; /* Ajuste o tamanho da fonte para telas menores */
     }
 
     header img {
+        max-height: 40px; /* Reduza a altura máxima da imagem */
         margin-right: 0;
         margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 20px; /* Ajuste o tamanho da fonte do título */
     }
 
     #container {
@@ -231,9 +241,12 @@ a:hover {
     }
 
     #inputBox, #outputBox {
-        width: 100%; 
-        max-width: 100%;
-        height: 15rem;
+        width: 100%;
+        height: 15rem; /* Mantém a altura */
+    }
+
+    #copyButton {
+        width: 100%; /* O botão ocupa toda a largura disponível */
     }
 
     #infoContainer {
