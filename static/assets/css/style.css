@@ -102,12 +102,28 @@ h1, h2 {
     overflow: auto;
     word-wrap: break-word;
     color: #717c89;
+    position: relative;
 }
 
 #inputBox, #outputBox {
     resize: none;
     width: 29rem; 
     height: 15rem;
+}
+
+#inputBox::before {
+    content: attr(data-placeholder);
+    color: #717c89;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    display: block;
+    opacity: 0.5;
+}
+
+#inputBox:not(:empty)::before {
+    display: none;
 }
 
 #container {
