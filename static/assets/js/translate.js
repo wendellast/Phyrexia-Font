@@ -13,7 +13,6 @@ copyButton.addEventListener('click', () => {
     window.getSelection().addRange(range);
     try {
         document.execCommand('copy');
-        alert('Texto copiado para a área de transferência!');
     } catch (err) {
         alert('Erro ao copiar texto');
     }
