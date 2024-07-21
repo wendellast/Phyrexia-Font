@@ -1,6 +1,6 @@
 # 🌀 Tradutor Phyrexia
 
-Bem-vindo ao **Tradutor Phyrexia**! Este é um projeto pessoal que visa traduzir textos para o idioma Phyrexia, uma linguagem fictícia inspirada no universo de Magic: The Gathering.
+Bem-vindo ao **Tradutor Phyrexia**! Este é um projeto pessoal que visa traduzir textos para o idioma Phyrexia, uma linguagem fictícia inspirada no universo de **Magic The Gathering**.
 
 ## 🌟 Sobre
 
@@ -48,7 +48,7 @@ Você pode acessar o site em [phyrexia-font.vercel.app](https://phyrexia-font.ve
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [GPL-3.0 license](LICENSE).
 
 ---
 
