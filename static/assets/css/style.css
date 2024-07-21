@@ -140,15 +140,18 @@ h1, h2 {
 #inputBox, #outputBox {
     width: 35rem; 
     height: 15rem;
+    word-wrap: break-word;
 }
 
+
 #outputBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-family: phyrexiaFont;
     font-size: 1.5rem;
-    position: relative; 
+    position: relative;
+    width: 35rem; /* Set the width to match inputBox */
+    max-width: 100%; /* Ensure it doesn't overflow its container */
+    word-wrap: break-word; /* Ensure long words break correctly */
+    overflow: auto; /* Allow scrolling if needed */
 }
 
 #copyButton {
