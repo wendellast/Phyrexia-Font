@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Caracteres Phyrexia</title>
+    <style>
+        @font-face {
+            font-family: 'phyrexiaFont';
+            src: url('../static/assets/font/PhyrexiaFontV2.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #randomCharacter {
+            font-family: phyrexiaFont;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .correct-answer {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="randomCharacter">ABC</div>
+        <input type="text" id="userInput" placeholder="Digite os caracteres" maxlength="5">
+        <br>
+        <button onclick="verificarCaracter()">Verificar</button>
+        <div class="result" id="resultado"></div>
+        <div class="correct-answer" id="respostaCorreta"></div>
+    </div>
+
+    <script>
+        let letras = 'abcdefghijklmnopqrstuvwxyz';
+        let caracteresAtuais = '';
+
+        function gerarCaracteresAleatorios() {
+            let quantidadeCaracteres = Math.floor(Math.random() * 5) + 1; // 1 e 5 caracteres
+            caracteresAtuais = '';
+            for (let i = 0; i < quantidadeCaracteres; i++) {
+                caracteresAtuais += letras.charAt(Math.floor(Math.random() * letras.length));
+            }
+            document.getElementById("randomCharacter").innerText = caracteresAtuais;
+        }
+
+        function verificarCaracter() {
+            let caracteresMostrados = document.getElementById("randomCharacter").innerText;
+            let caracteresDigitados = document.getElementById("userInput").value;
+
+            if (caracteresDigitados === caracteresMostrados) {
+                document.getElementById("resultado").innerText = "Correto!";
+                document.getElementById("resultado").style.color = "green";
+                document.getElementById("respostaCorreta").innerText = '';
+                document.getElementById("userInput").value = '';
+                gerarCaracteresAleatorios();
+            } else {
+                document.getElementById("resultado").innerText = "Incorreto!";
+                document.getElementById("resultado").style.color = "red";
+                document.getElementById("respostaCorreta").innerText = "Resposta correta: " + caracteresAtuais;
+                document.getElementById("userInput").value = ''; 
+            }
+        }
+
+     
+        window.onload = gerarCaracteresAleatorios;
+    </script>
+</body>
+</html>
