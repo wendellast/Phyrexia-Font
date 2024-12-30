@@ -7,6 +7,6 @@ COPY . .
 RUN go build -o main .
 
 
-EXPOSE 3003
+EXPOSE 3005
 
 CMD ["./main"]
