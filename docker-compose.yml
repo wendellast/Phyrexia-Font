@@ -1,0 +1,22 @@
+services:
+    phyrexia-font:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: phyrexia-font
+
+        env_file:
+            - .env
+        ports:
+            - "${PORT_PHYREXIA}:${PORT_PHYREXIA}"
+
+        volumes:
+            - ./static:/app/static
+        networks:
+            - project_network
+
+        restart: always
+
+networks:
+  project_network:
+    external: true
